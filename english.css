@@ -1,0 +1,224 @@
+body
+{
+    background-color: rgb(255, 247, 255);
+}
+
+.header
+{
+    background-color: white;
+    height: 50px;
+    border: 1px solid black;
+}
+
+.title
+{
+    color: rgb(255, 255, 255);
+    font-size: 40px;
+    font-family: "ＭＳ ゴシック",sans-serif;
+    padding-top: 5px;
+    /*
+    position: relative;
+    bottom: 25px;;
+    */
+    text-shadow: 
+        1px 0 4px rgb(0, 0, 0),
+        0 1px 4px black,
+        -1px 0 4px black,
+        0 -1px 4px black;
+}
+
+span
+{
+    position: relative;
+    left: 800px;
+    top: 10px;
+}
+
+.first
+{
+    font-family: "ＭＳ ゴシック",sans-serif;
+    background-color: white;
+    border: 1px solid white;
+    font-size: 20px;
+    float: right;
+}
+
+.first[open]
+{
+    padding: 0em;
+    background-color: white;
+    font-size: 15px;
+}
+
+.first[open] summary
+{
+    border: 1px solid white;
+    background-color: white;
+}
+
+p
+{
+    width: 100px;
+    font-family: "ＭＳ ゴシック",sans-serif;
+    position: relative;
+    bottom:35px;
+    left: 400px;
+    border-bottom: 1px solid black;
+}
+
+.popup
+{
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 9999;
+    opacity: 0;
+    visibility: hidden;
+    transition: .6s;
+}
+
+.show-popup
+{
+    font-size: 18px;
+    font-family: "ＭＳ ゴシック",sans-serif;
+    position: relative;
+    bottom: 20px;
+    left: 400px;
+    background-color: white;
+}
+
+.popup.is-show
+{
+    opacity: 1;
+    visibility: visible;
+}
+
+.popup-inner 
+{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    width: 80%;
+    max-width: 600px;
+    padding: 50px;
+    background-color: #fff;
+    z-index: 2;
+}
+
+.popup-inner img 
+{
+    width: 100%;
+}
+
+.close-btn 
+{
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.close-btn i
+{
+    font-size: 20px;
+    color: #333;
+}
+
+.black-background
+{
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,.8);
+    z-index: 1;
+    cursor: pointer;
+}
+
+.e
+{
+    font-size: 25px;
+    font-family:'メイリオ', 'Meiryo', sans-serif;
+    border: 1px solid rgb(0, 89, 255);
+    border-radius: 4px;
+    padding: .5em .5em 0;
+    background-color: rgb(0, 174, 255);
+    color: white;
+}
+
+details
+{
+    font-family:'メイリオ', 'Meiryo', sans-serif;
+    border: 1px solid rgb(63, 63, 63);
+    border-radius: 4px;
+    padding: .5em .5em 0;
+    font-size: 20px;
+    background-color: #a8e9ff;
+}
+
+details[open] {
+    font-family:'メイリオ', 'Meiryo', sans-serif;
+    padding: .0em;
+    background-color: rgb(228, 255, 255);
+}
+
+details[open] summary {
+    font-family:'メイリオ', 'Meiryo', sans-serif;
+    border-bottom: 1px solid rgb(0, 0, 0);
+    margin-bottom: .5em;
+    background-color: #a8e9ff;
+}
+
+.footer
+{
+    background-color: white;
+    height: 50px;
+    border: 1px solid black;
+}
+
+.site
+{
+    font-family: "ＭＳ ゴシック",sans-serif;
+    font-size: 20px;
+    position: relative;
+    top: 5px;
+    text-decoration: none;
+}
+
+.tr
+{   
+    width:195px;
+    font-family: "ＭＳ ゴシック",sans-serif;
+    position: relative;
+    left: 970px;
+    bottom: 20px;
+    border-bottom: 1px solid black ;
+}
+
+.trg
+{
+
+    font-family: "ＭＳ ゴシック",sans-serif;
+    position: relative;
+    left: 1080px;
+    bottom: 41px;
+    text-decoration: none;
+}
+
+.by
+{
+    width: 100px;
+    font-family: "ＭＳ ゴシック",sans-serif;
+    position: relative;
+    left: 1060px;
+    bottom: 36px;
+    border-bottom: 1px solid black;
+}
