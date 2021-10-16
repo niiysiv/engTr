@@ -1,5 +1,7 @@
 'use strict';
 
+alert('lesson7-2 更新しました');
+
 let popupImage = function()
 {
     let popup = document.getElementById("js-popup");
