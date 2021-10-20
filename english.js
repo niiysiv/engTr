@@ -1,6 +1,6 @@
 'use strict';
 
-alert('lesson7-2 更新しました');
+alert('lesson7-3 更新しました');
 
 let popupImage = function()
 {
